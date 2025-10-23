@@ -38,12 +38,6 @@ Dans un terminal à la racine `BackEnd` :
 npm install
 ```
 
-- Lancez le backend avec nodemon 
-
-```
-npx nodemon index.js
-```
-
 - Rassurez vous que vous avez creez le fichier `.env` a la racine de votre BackEnd, et que vous avez inserez vos informations de connexion comme ci-dessous (remplacer la valeur des variables `DB_user` et `DB_PASS` uniquement  )
 
 ```
@@ -51,6 +45,14 @@ DB_HOST = localhost
 DB_user = VOTRE NOM D'UTILISATEUR
 DB_PASS= VOTRE MOT DE PASSE
 DB_NAME = cafenova
+```
+
+- Connectez vous a la base de donnee `cafenova` dans MySQL
+
+- Lancez le backend avec nodemon 
+
+```
+npx nodemon index.js
 ```
 
 - Ensuite allez dans postman et testez vos requetes HTTP
